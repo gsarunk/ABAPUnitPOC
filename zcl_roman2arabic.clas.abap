@@ -28,7 +28,7 @@ CLASS zcl_roman2arabic IMPLEMENTATION.
       WHEN 'V'.
         e_arabic = 5.
       WHEN 'IX'.           "Added logic for 9 during GE demo
-        e_arabic = 9.
+        e_arabic = 8.
       WHEN OTHERS.
     ENDCASE.
   ENDMETHOD.
